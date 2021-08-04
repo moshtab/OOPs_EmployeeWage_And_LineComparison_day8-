@@ -10,14 +10,14 @@ public class EmpWageComputation {
 
 	public static void main(String[] args) {
 
+		employeeWage();
+	}
+
+	public static void employeeWage() {
 		int empHrs = 0;
 		int totalWorkingDays = 0;
 		int workingHr = 0;
 		int empWage = 0;
-		employeeWage(empHrs, totalWorkingDays, workingHr, empWage);
-	}
-
-	public static void employeeWage(int empHrs, int totalWorkingDays, int workingHr, int empWage) {
 
 		while (empHrs <= maxHrs && totalWorkingDays <= No_of_working_days) {
 			int empCheck = (int) Math.floor(Math.random() * 10) % 3;
