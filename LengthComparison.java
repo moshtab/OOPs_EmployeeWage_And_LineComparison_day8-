@@ -9,10 +9,10 @@ public class LengthComparison {
 		System.out.println("Welcome to Line computation program");
 
 		System.out.println("enter the end points of line1 : ");
-		double line1 = LengthCal();
+		double line1 = lengthCal();
 
 		System.out.println("enter the end points of line2 : ");
-		double line2 = LengthCal();
+		double line2 = lengthCal();
 
 		if (line1 == line2)
 			System.out.println("Lines are equal");
@@ -23,7 +23,7 @@ public class LengthComparison {
 
 	}
 
-	private static double LengthCal() {
+	private static double lengthCal() {
 
 		Scanner s = new Scanner(System.in);
 		System.out.println("enter the value of x1 : ");
