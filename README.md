@@ -1,4 +1,4 @@
-# day8-
+# day8-OOPs_Concept_Problems
 1) Employee Wage Calculation by Using Method
 
      I/P :- We have (Wage per Hour is 20),(Full day Hour = 8),(Part time Hour = 4),(Total working days =20);
